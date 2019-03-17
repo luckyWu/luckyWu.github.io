@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <title>www</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/gitment.css">
+    <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_859455_eaq7v6w8ktj.css">
+</head>
+<body>
+<header class="header">
+    <div class="header-inner">
+        <div class="header-title">
+
+        </div>
+        <nav class="header-nav">
+            
+            <a href="/" class="header-nav-link" >
+                首页
+            </a>
+            
+
+            
+            <a href="/archives" class="header-nav-link">
+                归档
+            </a>
+            
+
+            
+            <a href="/tags" class="header-nav-link">
+                标签
+            </a>
+            
+
+            
+        </nav>
+    </div>
+</header>
+<header class="mobile-header">
+    <div class="mobile-nav">
+        <div class="mobile-nav-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="mobile-nav-title">
+            <a href="/" class="mobile-nav-title-link">John Doe's Blog</a>
+        </div>
+
+    </div>
+    <nav class="mobile-menu">
+        <ul class="mobile-menu-list">
+            <li class="mobile-menu-item">
+                <i class="iconfont icon-home"></i>
+                <a href="/" class="mobile-nav-link">首页</a>
+            </li>
+            <li class="mobile-menu-item">
+                <i class="iconfont icon-archive"></i>
+                <a href="/archives" class="mobile-nav-link">归档</a>
+            </li>
+            <li class="mobile-menu-item">
+                <i class="iconfont icon-tag"></i>
+                <a href="/tags" class="mobile-nav-link">标签</a>
+            </li>
+            <li class="mobile-menu-item">
+                <i class="iconfont icon-about"></i>
+                <a href="/about/" class="mobile-nav-link">关于</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div class="main">
+    <div class="content-inner">
+        <div class="posts">
+    
+        <article class="post-abstract">
+            <div class="post-title">
+                <h2><a class="post-title-link" href="/2019/03/04/使用Scrapy爬取马蜂窝数据/">使用Scrapy爬取马蜂窝游记</a></h2>
+            </div>
+            <div class="post-meta">
+                <span class="post-time">2019-03-04</span>
+                
+                <span class="post-category">
+                    
+                    <a class="category" href="/categories/爬虫项目/">爬虫项目</a>
+                    
+                </span>
+                
+            </div>
+            <div class="post-content">
+                
+                    <p><strong>简介：抓取每一个月的每一个地点的每一个用户的游记的简要信息，这里只简单的定义了要爬取的字段（用户名，标题，简述，点赞数</strong>）</p>
+<p>项目GitHub地址：<a href="https://github.com/luckyWu/Spider-project.git" target="_blank" rel="noopener">https://github.com/luckyWu/Spider-project.git</a></p>
+<hr>
+<p><strong>先浏览下网页</strong></p>
+<p><strong>1.打开马蜂窝网站选择目的地页面（如下图）</strong></p>
+<p>时间一共有12个月，每一月旅游地点又分成多页显示</p>
+                    <div class="read-more">
+                        <a href="/2019/03/04/使用Scrapy爬取马蜂窝数据/" class="read-more-link">
+                            阅读全文
+                            <i class="iconfont icon-readmore"></i>
+                        </a>
+                    </div>
+                
+            </div>
+        </article>
+    
+        <article class="post-abstract">
+            <div class="post-title">
+                <h2><a class="post-title-link" href="/2018/10/29/js/">hello,</a></h2>
+            </div>
+            <div class="post-meta">
+                <span class="post-time">2018-10-29</span>
+                
+                <span class="post-category">
+                    
+                    <a class="category" href="/categories/随笔/">随笔</a>
+                    
+                </span>
+                
+            </div>
+            <div class="post-content">
+                
+                    <h1 id="js"><a href="#js" class="headerlink" title="js"></a>js</h1><p><strong>1.eval函数</strong></p>
+<p><strong>2.fromCharCode() 可接受一个指定的 Unicode 值，然后返回一个字符串 </strong></p>
+<p><strong>3.!function跟(function(){… })();函数意义相同，叫做立即运行的<a href="https://www.baidu.com/s?wd=%E5%8C%BF%E5%90%8D%E5%87%BD%E6%95%B0&amp;tn=SE_PcZhidaonwhc_ngpagmjz&amp;rsv_dl=gh_pc_zhidao" target="_blank" rel="noopener">匿名函数</a>(也叫立即调用函数) </strong></p>
+<p><strong>4.var p= document; 文档对象</strong></p>
+<p><strong>5.Array.prototype.map()方法</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">//map方法</span><br><span class="line">   var data = [10, 20, 30, 40];</span><br><span class="line">   var roots = data.map(function (ele) &#123;</span><br><span class="line">       return ele / 10;</span><br><span class="line">   &#125;);</span><br><span class="line">   console.log(roots);//[1,2,3,4]</span><br><span class="line">   console.log(data);//[10, 20, 30, 40]</span><br></pre></td></tr></table></figure>
+<p><strong>6. call() </strong>调用一个对象的一个方法，以另一个对象替换当前对象。 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- more --&gt;</span><br></pre></td></tr></table></figure>
+<p><strong>apply()</strong>应用某一对象的一个方法，用另一个对象替换当前对象 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">call和apply的作用都是在特定的作用域中将函数绑定到另外一个对象上去运行，即可以用来重新定义函数的执行环境，两者仅在定义参数方式上有所区别</span><br><span class="line"></span><br><span class="line">它们接收参数方面不同：call和apply的第一个参数都是需要调用的函数对象，在函数体内这个参数就是this的值，剩余的参数是需要传递给函数的值，call与apply的不同就是call传的值可以是任意的，而apply传的剩余值必须为数组</span><br></pre></td></tr></table></figure>
+<p><strong>7.jsbiam</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">AVAScript使用以下八种转义字符。这些字符都是以一个反斜线（\）开始。当JAVAScript的解释器（Interpreter）看到反斜线时，就会特别注意，表现出程序员所要表达的意思。下表列出了JavaScript的转义序列以及它们所代表的字符。其中有两个转义序列是通用的，通过把Latin-1或Unicode字符编码表示为十六进制数，它们可以表示任意字符。例如，转义序列\xA9表示的是版权符号，它采用十六进制数A9表示Latin-1编码。同样的，\u表示的是由四位十六进制数指定的任意Unicode字符，如\u03c0表示的是字符π（圆周率）。注意，虽然ECMAScript  v1标准要求使用Unicode字符转义，但是JavaScript 1.3之前的版本通常不支持转义符。有些JavaScript版本还允许用反斜线符合后加三位八进制数字来表示Latin-1字符，但是ECMAScript v3标准不支持这种转义序列，所以不应该再使用它们。</span><br></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>序</th>
+<th>转义字符</th>
+<th>使用说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td></td>
+<td>NUL 字符(\u0000)</td>
+</tr>
+<tr>
+<td>1</td>
+<td>\b</td>
+<td>后退一格（Backspace）退格符(\u0008)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>\f</td>
+<td>换页（Form Feed）(\u000C)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>\n</td>
+<td>换行（New Line）(\u000A)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>\r</td>
+<td>回车（Carriage Return）(\u000D)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>\t</td>
+<td>制表（Tab）水平制表符(\u0009)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>\’</td>
+<td>单引号(\u0027)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>\”</td>
+<td>双引号(\u0022)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>\</td>
+<td>反斜线（Backslash）(\u005C)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>\v</td>
+<td>垂直制表符(\u000B)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>\xNN</td>
+<td>由两位十六进制数值NN指定的Latin-1字符</td>
+</tr>
+<tr>
+<td>11</td>
+<td>\uNNNNN</td>
+<td>由四位十六进制数NNNN指定的Unicode字符</td>
+</tr>
+<tr>
+<td>12</td>
+<td>\NNN</td>
+<td>由一位到三位八进制数（1到377）指定的Latin-1字符。ECMAScript v3不支持，不要使用这种转义序列</td>
+</tr>
+</tbody>
+</table>
+
+                
+            </div>
+        </article>
+    
+</div>
+<div class="paginator">
+    
+        
+        
+    
+</div>
+
+    </div>
+</div>
+<footer class="footer-social">
+    
+
+    
+
+    
+
+    <div class="footer-copyright">
+        <p class="time-line">
+            &copy;
+            
+            
+            2019
+            &nbsp;<i class="iconfont icon-heart"></i>&nbsp;
+            <a target="_blank" href="https://github.com/iJinxin">John Doe</a>
+        </p>
+        <p class="theme-info">
+            Powered by <a target="_blank" href="https://hexo.io">Hexo</a>  |  Theme -
+            <a target="_blank" href="https://github.com/iJinxin/hexo-theme-sky">Sky</a>
+        </p>
+    </div>
+</footer>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/js/index.js"></script>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+    
+
+</script>
+</html>
